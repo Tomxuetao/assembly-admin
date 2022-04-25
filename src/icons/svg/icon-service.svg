@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 2@1x</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="服务概览" transform="translate(-738.000000, -170.000000)">
+            <g id="编组-2" transform="translate(738.000000, 170.000000)">
+                <rect id="矩形" fill-opacity="0.0969963874" fill="#FF9F0D" x="0" y="0" width="32" height="32" rx="10"></rect>
+                <g id="server-fill" transform="translate(8.000000, 8.000000)">
+                    <polygon id="路径" points="0 0 16 0 16 16 0 16"></polygon>
+                    <path d="M2.66666667,2 L13.3333333,2 C13.7015232,2 14,2.29847683 14,2.66666667 L14,7.33333333 L2,7.33333333 L2,2.66666667 C2,2.29847683 2.29847683,2 2.66666667,2 Z M2,8.66666667 L14,8.66666667 L14,13.3333333 C14,13.7015232 13.7015232,14 13.3333333,14 L2.66666667,14 C2.29847683,14 2,13.7015232 2,13.3333333 L2,8.66666667 Z M4.66666667,10.6666667 L4.66666667,12 L6.66666667,12 L6.66666667,10.6666667 L4.66666667,10.6666667 Z M4.66666667,4 L4.66666667,5.33333333 L6.66666667,5.33333333 L6.66666667,4 L4.66666667,4 Z" id="形状" fill="#FF9F0D" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

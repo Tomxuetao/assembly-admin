@@ -1,0 +1,61 @@
+{
+  "name": "assembly-admin",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build:test": "vite build --mode test",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "eslint --fix --ext .js,.vue src",
+    "prepare": "husky install",
+    "commit": "git add . & git-cz"
+  },
+  "lint-staged": {
+    "*.{vue,js,ts}": "eslint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Tomxuetao",
+  "license": "MIT",
+  "dependencies": {
+    "@element-plus/icons-vue": "^0.2.7",
+    "axios": "^0.21.1",
+    "dayjs": "^1.10.6",
+    "default-passive-events": "^2.0.0",
+    "echarts": "^5.2.1",
+    "element-plus": "^2.0.2",
+    "lodash": "^4.17.21",
+    "normalize.css": "^8.0.1",
+    "qs": "^6.10.1",
+    "vue": "^3.2.22",
+    "vue-router": "^4.0.12",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "@vitejs/plugin-vue": "^1.6.1",
+    "@vue/compiler-sfc": "^3.2.6",
+    "commitizen": "^4.0.1",
+    "cz-conventional-changelog": "^3.2.0",
+    "cz-customizable": "^6.3.0",
+    "eslint": "^8.14.0",
+    "eslint-plugin-vue": "^8.7.1",
+    "eslint-plugin-import": "^2.26.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.4.0",
+    "sass": "^1.38.1",
+    "vite": "^2.5.4",
+    "unplugin-element-plus": "^0.3.0"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  }
+}
