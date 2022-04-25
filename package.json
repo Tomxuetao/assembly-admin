@@ -7,8 +7,8 @@
     "build": "vite build",
     "serve": "vite preview",
     "lint": "eslint --fix --ext .js,.vue src",
-    "prepare": "husky install",
-    "commit": "git add . & git-cz"
+    "commit": "git add . & git-cz",
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.{vue,js,ts}": "eslint --fix"
@@ -42,16 +42,13 @@
     "cz-conventional-changelog": "^3.2.0",
     "cz-customizable": "^6.3.0",
     "eslint": "^8.14.0",
-    "eslint-plugin-vue": "^8.7.1",
     "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-vue": "^8.7.1",
     "husky": "^7.0.4",
     "lint-staged": "^12.4.0",
     "sass": "^1.38.1",
-    "vite": "^2.5.4",
-    "unplugin-element-plus": "^0.3.0"
-  },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
+    "unplugin-element-plus": "^0.3.0",
+    "vite": "^2.5.4"
   },
   "config": {
     "commitizen": {
